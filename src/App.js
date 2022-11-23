@@ -46,13 +46,13 @@ const App = () => {
         <Movies movieImg={gambit} />
         <Movies movieImg={witcher} />
       </div>
-      <div className="container2">
+      <div className="container">
         <Vacation type="Entire homes" locationImg={homes} />
         <Vacation type="Unique stays" locationImg={uniquestays} />
         <Vacation type="Cabins and cottages" locationImg={cabines} />
         <Vacation type="pets allowed" locationImg={petsallowed} />
       </div>
-      <div className="container2">
+      <div className="container">
         <News text="Unlocking to quickly..." newsImg={pandemic} />
         <News text="NHS england..." newsImg={bbcpay} />
         <News
@@ -122,13 +122,13 @@ const App = () => {
 // };
 
 const Movies = (props) => {
-  return <img id="movie" src={props.movieImg} alt="movie" />;
+  return <img className="image" src={props.movieImg} alt="movie" />;
 };
 
 const Vacation = (props) => {
   return (
     <div>
-      <img id="vacation" src={props.locationImg} alt="vacation" />
+      <img className="image" src={props.locationImg} alt="vacation" />
       <p>{props.type}</p>
     </div>
   );
@@ -137,7 +137,7 @@ const Vacation = (props) => {
 const News = (props) => {
   return (
     <div>
-      <img id="news" src={props.newsImg} alt="news" />
+      <img className="image" src={props.newsImg} alt="news" />
       <p>{props.text}</p>
     </div>
   );

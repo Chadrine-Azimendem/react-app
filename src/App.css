@@ -9,7 +9,7 @@
   margin: 4rem auto;
 }
 
-.container2 {
+/* .container2 {
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -17,18 +17,19 @@
   align-items: center;
   margin: 4rem auto;
   width: 80%;
-}
-
+} */
+/* 
 #title {
   color: darkred;
-}
-img {
+} */
+/* img {
   width: 380px;
   height: 380px;
-}
+} */
 
-#movie {
-  width: 20%;
+.image {
+  width: 380px;
+  height: 380px;
 }
 
 .yellow {
